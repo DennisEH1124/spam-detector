@@ -24,7 +24,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 
 HERE = Path(__file__).parent if "__file__" in globals() else Path.cwd()
-DATA_PATH = HERE / "data" / "email"
+DATA_PATH = HERE / "data" / "SMSSpamCollection"
 MODEL_PATH = HERE / "spam_model.joblib"
 
 
